@@ -1,0 +1,12 @@
+@FXML private void modification(MouseEvent e){
+        System.out.print(e);
+        FileChooser choose = new FileChooser();
+        choose.getExtensionFilters().add(new ExtensionFilter("Images","*.png","*.jpg","*.jpeg"));
+        File image = choose.showOpenDialog(new Stage());
+        try{
+            img.setImage(new Image(new FileInputStream(image.getAbsolutePath())));
+        }
+        catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700" prefWidth="1150.0" style="-fx-background-color: white;" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="Catégories">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" stylesheets="@../resources/css/styles.css" />
+      </content>
+    </Tab>
+      <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="Produits">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+    <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="Clients">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="Gestionnaires">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="Fournisseurs">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="SMS ">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="SMS Whatsapp">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab style="-fx-background-color: white; -fx-border-color: #eee; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" text="Facture">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>
